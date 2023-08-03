@@ -1,0 +1,9 @@
+@import '../../../../assets/scss/abstracts/variables/color';
+
+.section-1__part-2-btn{
+    background-color: $colour-title;
+    color: $colour-white;
+    width: 220px;
+    height: 40px;
+    border: none;
+}

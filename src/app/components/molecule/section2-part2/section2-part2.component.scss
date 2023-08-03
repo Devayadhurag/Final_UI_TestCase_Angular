@@ -1,0 +1,46 @@
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+@import '../../../../assets/scss/abstracts/variables/color';
+@import '../../../../assets/scss/abstracts/variables/spacer';
+
+.section-2__part-2{
+    display: flex;
+    gap: $spacer-6;
+
+    &__card{
+        height: 350px;
+        padding: $spacer-4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: $color-darkblue;
+    
+        &__title{
+            color: $colour-white;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+    
+        &__txt{
+            color: #ffffff9f;;
+        }
+    }
+}
+
+
+
+@include tablet{
+    .section-2__part-2{
+        flex-direction: column;
+
+        &__card{
+            height: 250px;
+        }
+    }
+}
+@include mobile{
+    .section-2__part-2{
+        flex-direction: column;
+
+    }
+}

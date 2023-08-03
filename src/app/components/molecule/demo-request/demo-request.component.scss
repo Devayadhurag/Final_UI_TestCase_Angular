@@ -1,0 +1,189 @@
+@import '../../../../assets/scss/abstracts/variables/color';
+@import '../../../../assets/scss/abstracts/variables/spacer';
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+
+
+.demo__request__form{
+        width: auto;
+        border-right: solid 2px #CACACA;
+
+        &__name{
+            background-image: url(../../../../assets/images/demo/1.svg);
+            width: 35%;
+            border: 1px solid #d9d9d9;
+            font-size: 14px;
+            color: #666666;
+            background-position: 96% 10px; 
+            background-repeat: no-repeat;
+            padding: 8px 20px 8px 20px;
+            margin: 10px;
+        }
+        &__email{
+            background-image: url(../../../../assets/images/demo/4.svg);
+            width: 35%;
+            border: 1px solid #d9d9d9;
+            font-size: 14px;
+            color: #666666;
+            background-position: 96% 10px; 
+            background-repeat: no-repeat;
+            padding: 8px 20px 8px 20px;
+            margin: 10px;
+        }
+        &__country{
+            background-image: url(../../../../assets/images/demo/2.svg);
+            width: 35%;
+            border: 1px solid #d9d9d9;
+            font-size: 14px;
+            color: #666666;
+            background-position: 96% 10px; 
+            background-repeat: no-repeat;
+            padding: 8px 20px 8px 20px;
+            margin: 10px;
+        }
+        &__phone{
+            background-image: url(../../../../assets/images/demo/5.svg);
+            width: 35%;
+            border: 1px solid #d9d9d9;
+            font-size: 14px;
+            color: #666666;
+            background-position: 96% 10px; 
+            background-repeat: no-repeat;
+            padding: 8px 20px 8px 20px;
+            margin: 10px;
+        }
+        &__company{
+            background-image: url(../../../../assets/images/demo/3.svg);
+            width: 35%;
+            border: 1px solid #d9d9d9;
+            font-size: 14px;
+            color: #666666;
+            background-position: 96% 10px; 
+            background-repeat: no-repeat;
+            padding: 8px 20px 8px 20px;
+            margin: 10px;
+        }
+        &__job{
+            background-image: url(../../../../assets/images/demo/6.svg);
+            width: 35%;
+            border: 1px solid #d9d9d9;
+            font-size: 14px;
+            color: #666666;
+            background-position: 96% 10px; 
+            background-repeat: no-repeat;
+            padding: 8px 20px 8px 20px;
+            margin: 10px;
+        }
+        &__message{
+            background-image: url(../../../../assets/images/demo/7.svg);
+            width: 72.5%;
+            height: 100px;
+            border: 1px solid #d9d9d9;
+            font-size: 14px;
+            color: #666666;
+            background-position: 98% 10px; 
+            background-repeat: no-repeat;
+            padding: 8px 20px 8px 20px;
+            margin: 10px;
+        }
+
+        &__btn{
+            width: 200px;
+            height: 50px;
+            margin: 10px 100px 10px  10px;
+            background-color: $colour-title;
+            color: $colour-white;
+            font-size: 20px;
+
+            & img{
+                width: 30px;
+                margin-left: 10px;
+            }
+        }
+
+    }
+
+@include mobile{
+    .demo__request{
+        flex-direction: column;
+        &__form{
+            width: auto;
+            border-right: 0;
+
+            &__name{
+                width: auto;
+            }
+
+            &__email{
+                width: auto;
+            }
+
+            &__country{
+                width: auto;
+            }
+
+            &__phone{
+                width: auto;
+            }
+
+            &__company{
+                width: auto;
+            }
+
+            &__job{
+                width: auto;
+            }
+
+            &__message{
+                width: auto;
+            }
+
+            &__btn{
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@include tablet{
+    .demo__request{
+        flex-direction: column;
+        &__form{
+            width: auto;
+            border-right: 0;
+
+            &__name{
+                width: auto;
+            }
+
+            &__email{
+                width: auto;
+            }
+
+            &__country{
+                width: auto;
+            }
+
+            &__phone{
+                width: auto;
+            }
+
+            &__company{
+                width: auto;
+            }
+
+            &__job{
+                width: auto;
+            }
+
+            &__message{
+                width: 100%;
+            }
+
+            &__btn{
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+}

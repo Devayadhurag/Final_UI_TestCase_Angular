@@ -1,0 +1,18 @@
+@import '../../../../assets/scss/abstracts/variables/color';
+
+.section-3__title{
+    & h6{
+        font-size: 14px;
+        letter-spacing: 5px;
+        color: $colour-title;
+        & img{
+            width: 200px;
+        }
+    }
+
+    & h2{
+        text-transform: capitalize;
+        color: $colour-title;
+        font-weight: 600;
+    }
+}

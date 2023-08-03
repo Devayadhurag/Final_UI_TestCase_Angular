@@ -1,0 +1,38 @@
+@import '../../../../assets/scss/abstracts/variables/color';
+@import '../../../../assets/scss/abstracts/variables/spacer';
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+
+
+.demo__request__2{
+    width: auto;
+    padding: 0 100px 0;
+
+    &__title{
+        font-size: 28px;
+        font-weight: 600;
+        color: $colour-title;
+    }
+
+    &__txt{        
+        font-size: 14px;
+        padding-top: 20px;
+    }
+}
+
+@include mobile{
+    .demo__request__2{
+        width: auto;
+        padding: 0;
+        margin: 50px 0 0;
+    }
+
+}
+@include tablet{
+    .demo__request__2{
+        width: auto;
+        padding: 0;
+        margin: 50px 0 0;
+    }
+
+}
+

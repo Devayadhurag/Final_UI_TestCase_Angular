@@ -1,0 +1,70 @@
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+@import '../../../../assets/scss/abstracts/variables/color';
+@import '../../../../assets/scss/abstracts/variables/spacer';
+
+.carousel{
+    position: relative;
+    &__prev{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    &__next{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        bottom: 30px;
+        left: 80px;
+    }
+}
+
+.hero__txt{
+    position: absolute;
+    top: 50px;
+    padding-left: 30px;
+
+    &-1{
+        font-size: 38px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    &-2{
+        width: 600px;
+        color: #ffffff;
+        font-size: 14px;
+    }
+
+    &-3{
+        color: aqua;
+        margin-left: 10px;
+    }
+}
+
+.hero__icon{
+    position: absolute;
+
+}
+
+@include mobile{
+    .hero__txt-1{
+        font-size: 28px;
+    }
+    .hero__txt-2{
+        font-size: 9px;
+        width: 300px;
+    }
+    .hero__txt-3{
+        font-size: 14px;
+    }
+}
+
+@include tablet{
+    .hero__txt-2{
+        width: 600px;
+        font-size: 14px;
+    }
+}

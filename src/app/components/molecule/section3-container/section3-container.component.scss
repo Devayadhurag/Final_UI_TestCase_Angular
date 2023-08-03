@@ -1,0 +1,54 @@
+@import '../../../../assets/scss/abstracts/variables/color';
+@import '../../../../assets/scss/abstracts/variables/spacer';
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+
+
+.section-3__container{
+    display: flex;
+    gap: $spacer-8;
+    
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+  
+
+        &__details{
+            margin: 10px 0 10px ;
+            & span{
+                font-size: 24px;
+                font-weight: 600;
+                padding-left: $spacer-4;
+                color: $colour-title;
+            }
+
+            & p{
+                padding-top: $spacer-4;
+            }
+        }
+    }
+}
+
+
+
+@include tablet{
+    .section-3__container{
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@include mobile{
+    .section-3__container{
+        flex-direction: column;
+        &__card__details{
+            & span{
+                font-size: 14px;
+            }
+            & p{
+                font-size: 14px;
+            }
+        }
+    }
+}

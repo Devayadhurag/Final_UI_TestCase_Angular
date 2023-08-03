@@ -1,0 +1,17 @@
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+
+.section-1__part-2{
+    position: relative;
+
+    &-txt{
+        position: absolute;
+        bottom: 30px;
+        left: 80px;
+    }
+}
+
+@include tablet{
+    .section-1__part-2-txt{
+        left: 40px;
+    }
+}

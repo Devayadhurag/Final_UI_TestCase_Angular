@@ -1,0 +1,43 @@
+@import '../../../../assets/scss/abstracts/variables/color';
+@import '../../../../assets/scss/abstracts/variables/spacer';
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+
+
+.demo{
+    width: auto;
+    margin: 50px;
+
+    &__title{
+        font-size: 28px;
+        font-weight: 600;
+        color: $colour-title;
+        padding: 10px;
+    }
+
+    &__request{
+        display: flex;
+    }
+
+
+}
+
+@include mobile{
+    .demo{
+        width: auto;
+        text-align: center;
+
+        &__request{
+            flex-direction: column;
+        }
+    }
+}
+@include tablet{
+    .demo{
+        width: auto;
+        text-align: center;
+
+        &__request{
+            flex-direction: column;
+        }
+    }
+}

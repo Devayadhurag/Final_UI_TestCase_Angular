@@ -1,0 +1,12 @@
+@import '../../../../assets/scss/abstracts/variables/color';
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+
+.section-1__part-2-img{
+    width: 400px;
+}
+
+@include tablet{
+    .section-1__part-2-img{
+        width: 300px;
+    }
+}

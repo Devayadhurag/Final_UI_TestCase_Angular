@@ -1,0 +1,12 @@
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+
+.section-1{
+    background-color: #e9fbff;
+    display: flex;
+}
+
+@include mobile{
+    .section-1{
+        flex-direction: column;
+    }
+}

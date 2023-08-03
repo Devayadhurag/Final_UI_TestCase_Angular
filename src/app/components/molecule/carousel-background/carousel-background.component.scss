@@ -1,0 +1,25 @@
+@import '../../../../assets/scss/abstracts/mixins/mixin';
+@import '../../../../assets/scss/abstracts/variables/spacer';
+
+
+
+@include mobile{
+    .c-item{
+        height: 300px;
+        }
+    .carousel-item img{
+        object-fit: cover;
+    }
+
+}
+
+@include tablet{
+    .c-item{
+        height: 300px;
+        }
+    .carousel-item img{
+        object-fit: cover;
+    }
+
+}
+

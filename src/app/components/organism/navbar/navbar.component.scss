@@ -1,0 +1,15 @@
+@import '../../../../assets/scss/abstracts/variables/spacer';
+
+.navbar{
+    &-brand{
+        padding-left: $spacer-2;
+    }
+
+    &-custom{
+        background-color: rgb(255, 255, 255);
+    }
+
+    &-nav{
+        margin-left: auto;
+    }
+}

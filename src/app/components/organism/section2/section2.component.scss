@@ -1,0 +1,7 @@
+@import '../../../../assets/scss/abstracts/variables/spacer';
+@import '../../../../assets/scss/abstracts/variables/color';
+
+.section-2{
+    background: linear-gradient($colour-title 85%, #ffff 15%);
+    padding: $spacer-6;
+}
