@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./carousel-background.component.scss']
 })
 export class CarouselBackgroundComponent {
-
+  image_1 = 'assets/images/Carousel/rectangle 1.svg';
 }
